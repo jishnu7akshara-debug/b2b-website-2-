@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Novaform — The B2B Agency for Teams That Ship</title>
+  <meta name="description" content="Novaform is a B2B agency for service firms, dev agencies and startups: brand, product, growth and AI automation — one senior team, one roadmap." />
+  <meta name="theme-color" content="#f5f6fa" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%235b4bff'/%3E%3Cstop offset='1' stop-color='%2300c2ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='10' fill='url(%23g)'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="logo" aria-label="Novaform home">
+      <span class="logo__mark"></span><span>Novaform</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#why">Why us</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <a href="#contact" class="btn btn--ink btn--sm">Book a call</a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <div class="drawer" aria-hidden="true">
+    <a href="#services">Services</a><a href="#why">Why us</a><a href="#work">Work</a><a href="#process">Process</a><a href="#pricing">Pricing</a>
+    <a href="#contact" class="btn btn--grad">Book a call →</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" data-spot>
+      <div class="hero__orb hero__orb--a" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--b" aria-hidden="true"></div>
+      <svg class="hero__rings" viewBox="0 0 800 800" aria-hidden="true">
+        <circle cx="400" cy="400" r="200" /><circle cx="400" cy="400" r="290" /><circle cx="400" cy="400" r="380" />
+        <circle class="sat" cx="600" cy="400" r="6" /><circle class="sat sat--2" cx="400" cy="110" r="5" />
+      </svg>
+
+      <div class="container hero__inner">
+        <a href="#work" class="pill fx-up"><span class="pill__new">New</span> 2026 B2B Growth Report is out <span class="pill__arrow">→</span></a>
+        <h1 class="hero__title fx-words">The B2B agency for teams that <span class="grad">actually ship.</span></h1>
+        <p class="hero__sub fx-up">Brand, product, growth and AI automation for service firms, dev agencies and startups — one senior team, one roadmap, measurable pipeline.</p>
+        <form class="hero__form fx-up" onsubmit="return false">
+          <input type="email" placeholder="Your work email" aria-label="Work email" />
+          <button class="btn btn--grad" type="submit">Get a free audit</button>
+        </form>
+        <ul class="hero__trust fx-up">
+          <li><b>4.9/5</b> on Clutch</li><li>120+ B2B launches</li><li>Reply in under 24h</li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <div class="frame hero__frame">
+          <i class="cross cross--tl"></i><i class="cross cross--tr"></i><i class="cross cross--bl"></i><i class="cross cross--br"></i>
+          <span class="frame__label mono">FRAME 01 · 1440 × 720</span>
+          <div class="hero__media">
+            <video src="assets/video/hero.mp4" poster="assets/img/svc-brand.jpg" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+          <div class="float float--a card-glass">
+            <span class="mono">QUALIFIED LEADS</span>
+            <strong><span data-count="318">0</span><em>+41%</em></strong>
+            <svg viewBox="0 0 120 36" class="spark"><path d="M0 30 L15 26 L30 28 L45 18 L60 20 L75 12 L90 14 L105 6 L120 4" /></svg>
+          </div>
+          <div class="float float--b card-glass">
+            <span class="avatar-stack"><img src="assets/img/a-1.jpg" alt="" /><img src="assets/img/a-2.jpg" alt="" /><img src="assets/img/a-4.jpg" alt="" /></span>
+            <div><strong>Your squad is online</strong><small>Strategist · Designer · Engineer</small></div>
+          </div>
+          <div class="float float--c card-glass mono"><span class="dot"></span> AI agent qualified 12 leads today</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGOS -->
+    <section class="logos" aria-label="Trusted by">
+      <p class="mono logos__label">TRUSTED BY OPERATORS AT</p>
+      <div class="logos__row">
+        <div class="logos__track">
+          <span>◆ Quantica</span><span>▲ Helixware</span><span>● Stackline</span><span>■ Brightpath</span><span>◆ Corelabs</span><span>▲ Nimbus HR</span><span>● Vaultly</span><span>■ Fieldnote</span>
+          <span>◆ Quantica</span><span>▲ Helixware</span><span>● Stackline</span><span>■ Brightpath</span><span>◆ Corelabs</span><span>▲ Nimbus HR</span><span>● Vaultly</span><span>■ Fieldnote</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATEMENT -->
+    <section class="statement section">
+      <div class="container">
+        <span class="eyebrow mono">// 01 — WHAT WE BELIEVE</span>
+        <p class="statement__text" data-highlight>Most B2B websites look fine and sell nothing. We design the brand, build the product and wire the pipeline as one system — so every page, workflow and campaign moves a real buyer one step closer to signing.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES (stacking cards) -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow mono fx-up">// 02 — SERVICES</span>
+          <h2 class="h2 fx-words">Four capabilities. <span class="muted">One team that owns the outcome.</span></h2>
+        </div>
+        <div class="stack">
+          <article class="stack__card">
+            <div class="stack__text">
+              <span class="stack__idx mono">01 / 04</span>
+              <h3>Brand &amp; Website</h3>
+              <p>Positioning, identity and a conversion-first website your sales team is proud to send. Built on Next.js or Webflow, tuned for speed and SEO.</p>
+              <ul class="tags"><li>Positioning</li><li>Identity</li><li>Web design</li><li>CMS</li></ul>
+              <a href="#contact" class="link-arrow">Explore brand &amp; web <span>→</span></a>
+            </div>
+            <div class="stack__media frame"><i class="cross cross--tl"></i><i class="cross cross--br"></i><img src="assets/img/svc-brand.jpg" alt="Open-plan agency studio with designers at work" loading="lazy" /></div>
+          </article>
+          <article class="stack__card">
+            <div class="stack__text">
+              <span class="stack__idx mono">02 / 04</span>
+              <h3>Product &amp; Engineering</h3>
+              <p>From wireframe to production: SaaS dashboards, portals and MVPs. Clean React and Node, automated tests, and a codebase you fully own.</p>
+              <ul class="tags"><li>UX &amp; UI</li><li>MVPs</li><li>Web apps</li><li>APIs</li></ul>
+              <a href="#contact" class="link-arrow">Explore product <span>→</span></a>
+            </div>
+            <div class="stack__media frame"><i class="cross cross--tl"></i><i class="cross cross--br"></i><video src="assets/video/code.mp4" poster="assets/img/svc-product.jpg" muted loop playsinline preload="none"></video></div>
+          </article>
+          <article class="stack__card">
+            <div class="stack__text">
+              <span class="stack__idx mono">03 / 04</span>
+              <h3>Growth &amp; Demand</h3>
+              <p>Outbound systems, landing-page programs, paid and SEO that fill your pipeline with the right accounts — reported weekly in revenue, not clicks.</p>
+              <ul class="tags"><li>ABM</li><li>Outbound</li><li>SEO</li><li>CRO</li></ul>
+              <a href="#contact" class="link-arrow">Explore growth <span>→</span></a>
+            </div>
+            <div class="stack__media frame"><i class="cross cross--tl"></i><i class="cross cross--br"></i><video src="assets/video/present.mp4" poster="assets/img/svc-growth.jpg" muted loop playsinline preload="none"></video></div>
+          </article>
+          <article class="stack__card">
+            <div class="stack__text">
+              <span class="stack__idx mono">04 / 04</span>
+              <h3>AI &amp; Automation</h3>
+              <p>AI agents that qualify inbound leads, draft proposals and keep your CRM spotless — connected to HubSpot, Zoho, Slack and your own stack.</p>
+              <ul class="tags"><li>AI agents</li><li>CRM</li><li>Workflows</li><li>Integrations</li></ul>
+              <a href="#contact" class="link-arrow">Explore AI <span>→</span></a>
+            </div>
+            <div class="stack__media frame"><i class="cross cross--tl"></i><i class="cross cross--br"></i><img src="assets/img/svc-ai.jpg" alt="Robot sitting on a bench reading, representing AI automation" loading="lazy" /></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY / BENTO -->
+    <section class="why section" id="why">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <span class="eyebrow mono fx-up">// 03 — WHY NOVAFORM</span>
+            <h2 class="h2 fx-words">Built for B2B. <span class="muted">Nothing else.</span></h2>
+          </div>
+          <p class="lead fx-up">We only work with B2B service firms, dev agencies and startups — so we already know your buyers, your sales cycle and your stack.</p>
+        </div>
+
+        <div class="bento">
+          <div class="tile tile--video tile--a tilt" data-spot>
+            <video src="assets/video/meeting.mp4" poster="assets/img/case-1.jpg" muted loop playsinline preload="none"></video>
+            <div class="tile__over"><span class="chip-glass mono">● Live strategy session</span><h3>A senior squad, not a junior relay team.</h3></div>
+          </div>
+          <div class="tile tile--stat tile--b tilt" data-spot>
+            <span class="mono muted">AVG. PIPELINE LIFT</span>
+            <strong class="big grad"><span data-count="3.2" data-decimals="1">0</span>×</strong>
+            <p>within two quarters across our last 40 B2B retainers.</p>
+            <div class="bars"><i style="--h:30%"></i><i style="--h:45%"></i><i style="--h:40%"></i><i style="--h:62%"></i><i style="--h:70%"></i><i style="--h:88%"></i><i style="--h:100%"></i></div>
+          </div>
+          <div class="tile tile--img tile--c tilt" data-spot>
+            <img src="assets/img/bento-team.jpg" alt="Website wireframe sketches on a blueprint" loading="lazy" />
+            <div class="tile__over tile__over--light"><h3>Wireframes before pixels.</h3><p>Every page is planned around a buyer journey first.</p></div>
+          </div>
+          <div class="tile tile--stack tile--d tilt" data-spot>
+            <span class="mono muted">PLUGS INTO YOUR STACK</span>
+            <div class="integrations">
+              <span>HubSpot</span><span>Zoho</span><span>Salesforce</span><span>Slack</span><span>Notion</span><span>Stripe</span><span>Webflow</span><span>Next.js</span><span>OpenAI</span><span>Zapier</span>
+            </div>
+          </div>
+          <div class="tile tile--stat tile--e tilt" data-spot>
+            <span class="mono muted">TIME TO FIRST RELEASE</span>
+            <strong class="big"><span data-count="14">0</span><small> days</small></strong>
+            <div class="ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" /><circle class="ring__fg" cx="60" cy="60" r="50" /></svg><span class="mono">ON TIME<br/>96%</span></div>
+          </div>
+          <div class="tile tile--img tile--f tilt" data-spot>
+            <img src="assets/img/bento-chip.jpg" alt="Close-up of a circuit board" loading="lazy" />
+            <div class="tile__over"><h3>Enterprise-grade by default.</h3><p>SOC 2-ready practices, NDAs and full IP transfer.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="head head--split">
+          <div>
+            <span class="eyebrow mono fx-up">// 04 — SELECTED WORK</span>
+            <h2 class="h2 fx-words">Results our clients <span class="muted">report to their boards.</span></h2>
+          </div>
+          <a href="#contact" class="btn btn--line fx-up">Request full case studies</a>
+        </div>
+        <div class="cases">
+          <a href="#contact" class="case">
+            <div class="case__img"><img src="assets/img/case-1.jpg" alt="Consulting team in a strategy workshop" loading="lazy" /><span class="case__badge mono">B2B SERVICES</span></div>
+            <div class="case__meta"><h3>Corelabs Consulting</h3><span class="case__kpi"><b>+186%</b> enterprise demo requests</span></div>
+            <p>Repositioned a 200-person IT consultancy and rebuilt its website and outbound engine.</p>
+          </a>
+          <a href="#contact" class="case">
+            <div class="case__img"><img src="assets/img/case-2.jpg" alt="Laptop and phone showing a SaaS dashboard" loading="lazy" /><span class="case__badge mono">SAAS STARTUP</span></div>
+            <div class="case__meta"><h3>Vaultly</h3><span class="case__kpi"><b>10 wks</b> idea to paying users</span></div>
+            <p>Designed and engineered a compliance SaaS MVP, then launched it to 600 waitlist accounts.</p>
+          </a>
+          <a href="#contact" class="case">
+            <div class="case__img"><img src="assets/img/case-3.jpg" alt="Agency founder smiling in a bright office" loading="lazy" /><span class="case__badge mono">DEV AGENCY</span></div>
+            <div class="case__meta"><h3>Stackline Studio</h3><span class="case__kpi"><b>2.4×</b> project capacity</span></div>
+            <p>White-label design and engineering pod embedded in a 30-person dev agency.</p>
+          </a>
+          <a href="#contact" class="case">
+            <div class="case__img"><img src="assets/img/case-4.jpg" alt="Startup all-hands meeting in a loft office" loading="lazy" /><span class="case__badge mono">HR TECH</span></div>
+            <div class="case__meta"><h3>Nimbus HR</h3><span class="case__kpi"><b>₹4.1 Cr</b> pipeline in 6 months</span></div>
+            <p>ABM program and AI lead-qualification agent for a Series A HR platform.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="head head--center">
+          <span class="eyebrow mono fx-up">// 05 — PROCESS</span>
+          <h2 class="h2 fx-words">From first call to compounding growth.</h2>
+        </div>
+        <div class="flow">
+          <svg class="flow__line" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+            <path class="flow__base" d="M20 60 C 200 0, 400 120, 600 60 S 1000 0, 1180 60" />
+            <path class="flow__draw" d="M20 60 C 200 0, 400 120, 600 60 S 1000 0, 1180 60" />
+          </svg>
+          <div class="flow__steps">
+            <div class="flow__step"><span class="flow__dot">1</span><span class="mono muted">WEEK 0</span><h3>Audit</h3><p>Free teardown of your site, funnel and CRM with a prioritised fix list.</p></div>
+            <div class="flow__step"><span class="flow__dot">2</span><span class="mono muted">WEEK 1–2</span><h3>Blueprint</h3><p>Wireframes, roadmap and fixed pricing — signed off before we build.</p></div>
+            <div class="flow__step"><span class="flow__dot">3</span><span class="mono muted">WEEK 2–8</span><h3>Build</h3><p>Weekly demos on a live staging link. No surprises, ever.</p></div>
+            <div class="flow__step"><span class="flow__dot">4</span><span class="mono muted">ONGOING</span><h3>Compound</h3><p>Monthly experiments and reporting that keep the pipeline growing.</p></div>
+          </div>
+        </div>
+        <div class="frame process__video">
+          <i class="cross cross--tl"></i><i class="cross cross--tr"></i><i class="cross cross--bl"></i><i class="cross cross--br"></i>
+          <video src="assets/video/skyline.mp4" poster="assets/img/case-4.jpg" muted loop playsinline preload="none"></video>
+          <div class="process__over">
+            <div><strong data-count="120" data-suffix="+">0</strong><span>B2B launches</span></div>
+            <div><strong data-count="92" data-suffix="%">0</strong><span>clients renew after year one</span></div>
+            <div><strong data-count="24" data-suffix="h">0</strong><span>maximum reply time</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="voices section">
+      <div class="container head head--center">
+        <span class="eyebrow mono fx-up">// 06 — CLIENT VOICES</span>
+        <h2 class="h2 fx-words">Loved by founders and revenue leaders.</h2>
+      </div>
+      <div class="voices__rows">
+        <div class="voices__row">
+          <div class="voices__track">
+            <figure class="quote"><blockquote>"Novaform rebuilt our site, CRM and outbound in eight weeks. Enterprise demos nearly tripled."</blockquote><figcaption><img src="assets/img/a-1.jpg" alt="" /><div><b>Meera Iyer</b><span>CMO, Corelabs</span></div></figcaption></figure>
+            <figure class="quote"><blockquote>"The best white-label team we've worked with. Our clients think they're in-house."</blockquote><figcaption><img src="assets/img/a-2.jpg" alt="" /><div><b>Lucas Brandt</b><span>Founder, Stackline Studio</span></div></figcaption></figure>
+            <figure class="quote"><blockquote>"Clear scope, weekly demos and zero drama. We launched our MVP in ten weeks."</blockquote><figcaption><img src="assets/img/a-3.jpg" alt="" /><div><b>Ana Ruiz</b><span>CEO, Vaultly</span></div></figcaption></figure>
+            <figure class="quote"><blockquote>"Their AI agent qualifies leads before my team wakes up. It changed how we sell."</blockquote><figcaption><img src="assets/img/a-4.jpg" alt="" /><div><b>Zara Okoye</b><span>VP Sales, Nimbus HR</span></div></figcaption></figure>
+          </div>
+        </div>
+        <div class="voices__row voices__row--rev">
+          <div class="voices__track">
+            <figure class="quote"><blockquote>"Finally an agency that reports in pipeline and revenue, not vanity metrics."</blockquote><figcaption><img src="assets/img/a-5.jpg" alt="" /><div><b>Riya Kapoor</b><span>Head of Growth, Brightpath</span></div></figcaption></figure>
+            <figure class="quote"><blockquote>"Senior people on every call. They challenged our brief and made it better."</blockquote><figcaption><img src="assets/img/a-6.jpg" alt="" /><div><b>Daniel Moreau</b><span>COO, Helixware</span></div></figcaption></figure>
+            <figure class="quote"><blockquote>"Our website went from brochure to our best salesperson. Inbound is up 4×."</blockquote><figcaption><img src="assets/img/a-1.jpg" alt="" /><div><b>Kavya Rao</b><span>Partner, Fieldnote Advisory</span></div></figcaption></figure>
+            <figure class="quote"><blockquote>"Design quality of a top studio, delivery discipline of an engineering team."</blockquote><figcaption><img src="assets/img/a-2.jpg" alt="" /><div><b>Tom Becker</b><span>CTO, Quantica</span></div></figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="head head--center">
+          <span class="eyebrow mono fx-up">// 07 — PRICING</span>
+          <h2 class="h2 fx-words">Simple plans. <span class="muted">No hidden hours.</span></h2>
+          <div class="switch fx-up" role="group" aria-label="Billing period">
+            <button class="switch__btn is-on" data-period="m">Monthly</button>
+            <button class="switch__btn" data-period="q">Quarterly <em>-10%</em></button>
+          </div>
+        </div>
+        <div class="tiers">
+          <article class="tier fx-card">
+            <h3>Launch</h3><p class="muted">For startups that need a sharp brand and site, fast.</p>
+            <div class="tier__price"><span class="cur">₹</span><b data-m="1,90,000" data-q="1,71,000">1,90,000</b><span class="per">/ mo</span></div>
+            <a href="#contact" class="btn btn--line btn--block">Start with Launch</a>
+            <ul><li>Brand &amp; website sprint</li><li>Up to 8 pages</li><li>CMS &amp; SEO setup</li><li>Bi-weekly check-ins</li></ul>
+          </article>
+          <article class="tier tier--pro fx-card">
+            <span class="tier__tag mono">MOST POPULAR</span>
+            <h3>Scale</h3><p class="muted">Brand, product and growth from one dedicated squad.</p>
+            <div class="tier__price"><span class="cur">₹</span><b data-m="3,60,000" data-q="3,24,000">3,60,000</b><span class="per">/ mo</span></div>
+            <a href="#contact" class="btn btn--grad btn--block">Start with Scale</a>
+            <ul><li>Everything in Launch</li><li>Product &amp; engineering hours</li><li>Outbound + ABM program</li><li>Weekly pipeline reporting</li><li>Slack channel with your squad</li></ul>
+          </article>
+          <article class="tier fx-card">
+            <h3>Partner</h3><p class="muted">White-label pods for dev agencies, under your brand.</p>
+            <div class="tier__price"><span class="cur"></span><b data-m="Custom" data-q="Custom">Custom</b></div>
+            <a href="#contact" class="btn btn--line btn--block">Talk to partnerships</a>
+            <ul><li>NDA &amp; non-solicit</li><li>Your tools and process</li><li>Flexible monthly capacity</li><li>Partner margin built in</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section">
+      <div class="container faq__grid">
+        <div class="head">
+          <span class="eyebrow mono fx-up">// 08 — FAQ</span>
+          <h2 class="h2 fx-words">Good questions, <span class="muted">straight answers.</span></h2>
+          <a href="#contact" class="link-arrow fx-up">Ask us anything <span>→</span></a>
+        </div>
+        <div class="acc">
+          <div class="acc__item is-open"><button class="acc__q" aria-expanded="true">Do we own everything you build?<i></i></button><div class="acc__a"><p>Yes. Code, designs, content and accounts are yours from day one — repos and files live in your workspace, not ours.</p></div></div>
+          <div class="acc__item"><button class="acc__q" aria-expanded="false">How fast can you start?<i></i></button><div class="acc__a"><p>Usually within 7–10 days of signing. The free audit can happen this week.</p></div></div>
+          <div class="acc__item"><button class="acc__q" aria-expanded="false">Do you work with dev agencies as a white-label partner?<i></i></button><div class="acc__a"><p>Yes — around a third of our work is white-label. We sign NDAs and non-solicits, use your tools and never contact your clients directly.</p></div></div>
+          <div class="acc__item"><button class="acc__q" aria-expanded="false">Can you work inside our existing CRM and stack?<i></i></button><div class="acc__a"><p>We work daily with HubSpot, Zoho, Salesforce, Webflow, Next.js and most modern stacks. If something is unusual we'll say so on the first call.</p></div></div>
+          <div class="acc__item"><button class="acc__q" aria-expanded="false">Can we pause or cancel a plan?<i></i></button><div class="acc__a"><p>Monthly plans can be paused or cancelled with 30 days' notice. No long lock-ins.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section" id="contact">
+      <div class="container">
+        <div class="cta__box" data-spot>
+          <div class="cta__glow" aria-hidden="true"></div>
+          <div class="cta__copy">
+            <span class="eyebrow mono">// 09 — LET'S TALK</span>
+            <h2 class="h2 fx-words">Ready to turn your website into your best salesperson?</h2>
+            <p class="lead">Book a 30-minute call. You'll leave with a free audit of your site and pipeline — whether you hire us or not.</p>
+            <div class="cta__people">
+              <span class="avatar-stack"><img src="assets/img/a-5.jpg" alt="" /><img src="assets/img/a-6.jpg" alt="" /><img src="assets/img/a-3.jpg" alt="" /></span>
+              <span class="muted">Talk directly with a strategist, not a sales rep.</span>
+            </div>
+            <div class="frame cta__video">
+              <i class="cross cross--tl"></i><i class="cross cross--br"></i>
+              <video src="assets/video/handshake.mp4" poster="assets/img/hero-poster.jpg" muted loop playsinline preload="none"></video>
+            </div>
+          </div>
+          <form class="cform" novalidate>
+            <div class="cform__row">
+              <label><span>Full name</span><input name="name" type="text" placeholder="Jane Cooper" required /></label>
+              <label><span>Work email</span><input name="email" type="email" placeholder="jane@company.com" required /></label>
+            </div>
+            <div class="field"><span>Company type</span>
+              <div class="seg" role="radiogroup" aria-label="Company type">
+                <input type="radio" name="kind" id="k1" checked /><label for="k1">B2B services</label>
+                <input type="radio" name="kind" id="k2" /><label for="k2">Dev agency</label>
+                <input type="radio" name="kind" id="k3" /><label for="k3">Startup</label>
+              </div>
+            </div>
+            <label><span>What do you need?</span>
+              <select name="need"><option>Brand &amp; website</option><option>Product / MVP</option><option>Growth &amp; pipeline</option><option>AI &amp; automation</option><option>White-label partnership</option></select>
+            </label>
+            <label><span>Project details</span><textarea name="msg" rows="3" placeholder="Goals, timeline, budget range…"></textarea></label>
+            <button class="btn btn--grad btn--block" type="submit">Book my free audit</button>
+            <p class="cform__note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#top" class="logo"><span class="logo__mark"></span><span>Novaform</span></a>
+          <p class="muted">The B2B agency for service firms, dev agencies and startups.</p>
+          <form class="footer__news" onsubmit="this.querySelector('button').textContent='Subscribed ✓';return false">
+            <input type="email" placeholder="Monthly B2B growth notes" aria-label="Email for newsletter" required /><button class="btn btn--ink btn--sm">Subscribe</button>
+          </form>
+        </div>
+        <div><h4 class="mono">SERVICES</h4><a href="#services">Brand &amp; Website</a><a href="#services">Product &amp; Engineering</a><a href="#services">Growth &amp; Demand</a><a href="#services">AI &amp; Automation</a></div>
+        <div><h4 class="mono">COMPANY</h4><a href="#work">Work</a><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div>
+        <div><h4 class="mono">CONTACT</h4><a href="mailto:hello@novaform.agency">hello@novaform.agency</a><a href="tel:+918000000000">+91 80 0000 0000</a><span class="muted">Bengaluru · Hyderabad · Remote</span></div>
+      </div>
+      <div class="footer__word" aria-hidden="true">novaform</div>
+      <div class="footer__bottom mono"><span>© <span class="year"></span> Novaform Agency</span><span>Privacy · Terms</span><a href="#top">Back to top ↑</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
